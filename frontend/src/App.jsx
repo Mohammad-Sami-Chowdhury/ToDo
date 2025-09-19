@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Plus, Check, X, Edit3, Trash2 } from "lucide-react";
 
-const API_URL = "https://todo-0ne6.onrender.com/api/todos";
+const API_URL = "https://todo-kb81.onrender.com/api/todos"; // change if your backend URL is different
 
 export default function App() {
   const [todos, setTodos] = useState([]);
